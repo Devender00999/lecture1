@@ -1,0 +1,23 @@
+.danger, .warning, .success {
+  font-size: 12px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+}
+
+.success {
+  background: #95eb15;
+}
+
+.warning {
+  background: #e0e023;
+}
+
+.danger {
+  background: #f02d2d;
+}
+
+/*# sourceMappingURL=inheritance.css.map */

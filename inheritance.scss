@@ -1,0 +1,21 @@
+%message{
+    font-size:12px;
+    width:100%;
+    padding:10px;
+    margin:10px;
+    text-align:center;
+    color:white;
+    border:1px solid black;
+}
+.success{
+    @extend %message;
+    background:rgb(149, 235, 21);
+}
+.warning{
+    @extend %message;
+    background: rgb(224, 224, 35);
+}
+.danger{
+    @extend %message;
+    background:rgb(240, 45, 45);
+}
